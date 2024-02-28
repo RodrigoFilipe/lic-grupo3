@@ -1,0 +1,26 @@
+set_global_assignment -name BOARD "MAX 10 DE10 - Lite"
+set_global_assignment -name DEVICE 10M50DAF484C6GES
+set_global_assignment -name FAMILY "MAX 10"
+
+
+
+set_location_assignment PIN_C10 -to rst
+set_location_assignment PIN_C11 -to kack
+set_location_assignment PIN_P11 -to clk
+
+
+
+set_location_assignment PIN_A10 -to kval
+set_location_assignment PIN_E14 -to K[0]
+set_location_assignment PIN_D14 -to K[1]
+set_location_assignment PIN_A11 -to K[2]
+set_location_assignment PIN_B11 -to K[3]
+
+set_location_assignment PIN_W5 -to I[0]
+set_location_assignment PIN_AA14 -to I[1]
+set_location_assignment PIN_W12 -to I[2]
+set_location_assignment PIN_AB12 -to I[3]
+set_location_assignment PIN_AB11 -to O[0]
+set_location_assignment PIN_AB10 -to O[1]
+set_location_assignment PIN_AA9 -to O[2]
+set_location_assignment PIN_AA8 -to O[3]
